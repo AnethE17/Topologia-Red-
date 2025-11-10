@@ -1,0 +1,160 @@
+#bus{
+    background-image: url(Fondo1.jpg);
+background-size:cover;
+}
+h1{
+    color: rgb(107, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Cuadro1 {
+  border: none;
+  border-radius: 15px;
+  background-color: #666eb7d9;
+  padding: 30px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: aparecer 1s ease-out;
+}
+
+#Cuadro1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+ .ColumnasB h3{
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 128, 0, 0.443);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+    }
+    .ColumnasDB h3{
+        text-align: center;
+      color: white;
+      background-color: rgba(255, 0, 0, 0.485);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px; 
+    }
+
+body{
+     font-family: 'Poppins', sans-serif;
+}
+#Imagen2{
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 3px solid #6b95c1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background: rgb(162, 171, 221);
+}
+#Imagen{
+   display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 3px solid #6b95c1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background: rgb(162, 171, 221);   
+}
+#Anillo{
+    background-image: url(Fondo2.webp);
+}
+#Cuadro{
+  border: none;
+  border-radius: 15px;
+  background-color: #8588a6d9;
+  padding: 30px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: aparecer 1s ease-out;
+}
+
+#Cuadro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+
+.Ventajas {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+.Columnas, .Filas {
+  flex: 1;
+  background-color: rgb(164, 176, 168);
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+
+ .Columnas h3{
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 128, 0, 0.443);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+    }
+    #color{
+        text-align: center;
+      color: white;
+      background-color: rgba(255, 0, 0, 0.485);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px; 
+    }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.VenB {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+.ColumnasB, .ColumnasDB {
+  flex: 1;
+  background-color: rgb(176, 210, 246);
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+

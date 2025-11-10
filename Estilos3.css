@@ -1,0 +1,177 @@
+#Malla{
+    background-image: url(Fondo5.jpg);
+    background-size:cover;
+}
+h1{
+    color: rgb(236, 196, 53);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#JH {
+  border: none;
+  border-radius: 15px;
+  background-color: #9f8ed2d9;
+  padding: 30px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: aparecer 1s ease-out;
+}
+
+#JH:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.Ventajas3 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+
+
+ .Columnas3 h3{
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 128, 0, 0.443);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+    }
+    #C3{
+        text-align: center;
+      color: white;
+      background-color: rgba(255, 0, 0, 0.485);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px; 
+    }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.Columnas3, .Columnas4 {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+
+
+
+
+
+
+#Arbol{
+    background-image: url(Fondo6.jpg);
+    background-size:cover;
+}
+h1{
+    color: rgb(107, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#DA {
+  border: none;
+  border-radius: 15px;
+  background-color: #b799abd9;
+  padding: 30px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: aparecer 1s ease-out;
+}
+
+#DA:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.Ventajas4 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+
+
+ .Columnas4 h3{
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 128, 0, 0.443);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+    }
+    #C4{
+        text-align: center;
+      color: white;
+      background-color: rgba(255, 0, 0, 0.485);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px; 
+    }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.Columnas4, .Columnas5 {
+  flex: 1;
+  background-color: rgb(208, 211, 200);
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+

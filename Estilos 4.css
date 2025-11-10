@@ -1,0 +1,85 @@
+#Hibrida{
+    background-image: url(Fondo7.jpg);
+    background-size: cover;
+}
+h1{
+    color: rgb(66, 205, 42);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Cuadro7 {
+  border: none;
+  border-radius: 15px;
+  background-color: #9f8ed2d9;
+  padding: 30px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: aparecer 1s ease-out;
+}
+
+#Cuadro7:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.Ventajas7 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+
+
+ .Columnas7 h3{
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 128, 0, 0.443);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+    }
+    #C8{
+        text-align: center;
+      color: white;
+      background-color: rgba(255, 0, 0, 0.485);
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      margin: -20px -20px 15px -20px; 
+    }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.Columnas7, .Columnas8 {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
